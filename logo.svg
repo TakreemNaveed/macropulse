@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="4096" height="4096">
+  <defs>
+    <linearGradient id="leftArc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A8DFF" />
+      <stop offset="100%" stop-color="#2676FF" />
+    </linearGradient>
+    <linearGradient id="rightArc" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2257E6" />
+      <stop offset="100%" stop-color="#2B67F6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Light Blue Rounded Square Background -->
+  <rect x="60" y="60" width="880" height="880" rx="165" fill="#E1F1FD" />
+
+  <!-- Fork (Left) -->
+  <path d="M 212 275 A 5.5 5.5 0 0 1 223 275 L 223 355 A 4.5 4.5 0 0 0 232 355 L 232 275 A 5.5 5.5 0 0 1 243 275 L 243 355 A 4.5 4.5 0 0 0 252 355 L 252 275 A 5.5 5.5 0 0 1 263 275 L 263 355 A 4.5 4.5 0 0 0 272 355 L 272 275 A 5.5 5.5 0 0 1 283 275 L 283 365 C 283 398, 260 412, 258 435 L 260 578 A 12.5 12.5 0 0 1 235 578 L 237 435 C 235 412, 212 398, 212 365 Z" fill="#082556" />
+
+  <!-- Plate Ring: Left Half -->
+  <path d="M 500 610 A 180 180 0 0 1 482 251" fill="none" stroke="url(#leftArc)" stroke-width="30" stroke-linecap="butt" />
+  <circle cx="482" cy="251" r="15" fill="#3A8DFF" />
+
+  <!-- Plate Ring: Right Half -->
+  <path d="M 500 610 A 180 180 0 0 0 518 251" fill="none" stroke="url(#rightArc)" stroke-width="30" stroke-linecap="butt" />
+  <circle cx="518" cy="251" r="15" fill="#2257E6" />
+
+  <!-- Center ECG / Pulse Line -->
+  <polyline points="392,438 436,438 452,466 485,340 507,515 542,408 556,438 604,438" fill="none" stroke="#082556" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Knife (Right) -->
+  <path d="M 768 265 C 774 265, 778 270, 778 278 L 778 577 A 13 13 0 0 1 752 577 L 752 452 C 752 444, 730 442, 730 418 C 730 355, 748 265, 768 265 Z" fill="#082556" />
+
+  <!-- Brand Text -->
+  <text x="500" y="765" text-anchor="middle" fill="#082556"
+    font-family="'Montserrat', sans-serif" font-weight="700" font-size="96" letter-spacing="-1">
+    Macropulse
+  </text>
+</svg>
